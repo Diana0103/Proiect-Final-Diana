@@ -1,0 +1,76 @@
+:root {
+  --text-primary: #421010;
+  --text-secondary: #2bb686;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #2bb686;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+/* Customizam Bootstrap: */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #2bb686;
+  border-color: #2bb686;
+}
+
+.text-primary {
+  color: #5075eeb0 !important;
+}
+
+.text-secondary {
+  color: #2bb686 !important;
+}
+
+.text-light {
+  color: #110202 !important;
+}
+
+.text-dark {
+  color: #2b2922 !important;
+}
+
+.bg-primary {
+  background-color: #5075eeb0 !important;
+}
+
+.bg-secondary {
+  background-color: #e9dff5 !important;
+}
+
+.bg-dark {
+  background-color: #5075eeb0 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
